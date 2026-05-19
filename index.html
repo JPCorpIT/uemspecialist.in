@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>UEM Specialist | Prakash Jadav — Microsoft Intune & Endpoint Architect</title>
-  <meta name="description" content="Enterprise Microsoft Intune & MDM consultant. 14 years. 70,000+ endpoints. Serving clients in India, UK, Australia & Middle East."/>
+  <title>UEM Specialist | Prakash Jadav — EUC & Endpoint Management Consultant</title>
+  <meta name="description" content="14 years of EUC & endpoint management. Intune, Workspace ONE, MobileIron, Scalefusion, M365. 70,000+ endpoints. Serving clients in India, UK, Australia & Middle East."/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet"/>
@@ -425,15 +425,15 @@
       padding: 24px;
       border-radius: 2px;
       transition: border-color 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 12px;
     }
     .cert-card:hover { border-color: var(--gold); }
 
-    .cert-year {
-      font-family: 'DM Mono', monospace;
-      font-size: 10px;
-      letter-spacing: 2px;
-      color: var(--gold);
-      margin-bottom: 8px;
+    .cert-icon {
+      font-size: 18px;
+      flex-shrink: 0;
     }
 
     .cert-name {
@@ -596,15 +596,15 @@
 
   <!-- HERO -->
   <section id="hero">
-    <div class="hero-tag">Microsoft Intune & Endpoint Architect</div>
+    <div class="hero-tag">EUC & Endpoint Management Specialist</div>
     <h1 class="hero-headline">
       Enterprise endpoints,<br/>
       <em>built to last.</em>
     </h1>
     <p class="hero-sub">
-      14 years managing Microsoft Intune, MDM/UEM, and Modern Workplace
-      environments at scale — from 4,000 to 70,000+ devices across India,
-      Europe, and the Americas.
+      14 years of EUC and endpoint management across Intune, MobileIron,
+      VMware Workspace ONE, Scalefusion, and M365 — from 4,000 to 70,000+
+      devices across India, Europe, and the Americas.
     </p>
     <div class="hero-actions">
       <a href="#contact" class="btn-primary">Start a Project</a>
@@ -689,6 +689,20 @@
       <div class="cases-list fade-up">
         <div class="case-item">
           <div>
+            <div class="case-company">InXpress India</div>
+            <div class="case-role">IT Manager — APAC (Sole IT Hire)</div>
+          </div>
+          <div class="case-desc">
+            Built the entire cloud-native IT environment from scratch as a single hire — Microsoft 365, Intune, Entra ID, Autopilot Zero Touch provisioning, Conditional Access, MFA, CSP security baselines, MAM policies, and BYOD programme. Deployed Scalefusion for BYOD mobile management and NinjaRMM for endpoint monitoring. Rolled out to 4,000 users across the APAC region. Reduced provisioning time from 2 days to under 2 hours.
+          </div>
+          <div class="case-stat">
+            <span class="case-num">4K</span>
+            <span class="case-num-label">Global Users</span>
+          </div>
+        </div>
+
+        <div class="case-item">
+          <div>
             <div class="case-company">Chevron / LTIMindtree</div>
             <div class="case-role">Intune SME & Team Lead</div>
           </div>
@@ -698,20 +712,6 @@
           <div class="case-stat">
             <span class="case-num">50K+</span>
             <span class="case-num-label">Endpoints</span>
-          </div>
-        </div>
-
-        <div class="case-item">
-          <div>
-            <div class="case-company">InXpress India</div>
-            <div class="case-role">IT Manager — APAC (Sole IT Hire)</div>
-          </div>
-          <div class="case-desc">
-            Built the entire cloud-native IT environment from scratch as a single hire — Microsoft 365, Intune, Entra ID, Autopilot Zero Touch provisioning, Conditional Access, MFA, CSP security baselines, MAM policies, and BYOD programme. Rolled out to 4,000 users across the APAC region. Reduced provisioning time from 2 days to under 2 hours.
-          </div>
-          <div class="case-stat">
-            <span class="case-num">4K</span>
-            <span class="case-num-label">Global Users</span>
           </div>
         </div>
 
@@ -737,12 +737,16 @@
     <div class="section-wrap">
       <div class="section-label">Technical Skills</div>
       <h2 class="section-title">Expertise</h2>
-      <p class="section-sub">Deep technical capability across the Microsoft endpoint and identity stack.</p>
+      <p class="section-sub">Deep technical capability across multiple MDM/UEM platforms and the Microsoft Modern Workplace stack.</p>
 
       <div class="expertise-grid fade-up">
         <div class="expertise-item"><div class="expertise-dot"></div><span class="expertise-text">Microsoft Intune</span></div>
-        <div class="expertise-item"><div class="expertise-dot"></div><span class="expertise-text">Windows Autopilot</span></div>
+        <div class="expertise-item"><div class="expertise-dot"></div><span class="expertise-text">VMware Workspace ONE</span></div>
+        <div class="expertise-item"><div class="expertise-dot"></div><span class="expertise-text">MobileIron / Ivanti</span></div>
+        <div class="expertise-item"><div class="expertise-dot"></div><span class="expertise-text">Scalefusion MDM</span></div>
+        <div class="expertise-item"><div class="expertise-dot"></div><span class="expertise-text">NinjaRMM</span></div>
         <div class="expertise-item"><div class="expertise-dot"></div><span class="expertise-text">Microsoft Entra ID</span></div>
+        <div class="expertise-item"><div class="expertise-dot"></div><span class="expertise-text">Windows Autopilot</span></div>
         <div class="expertise-item"><div class="expertise-dot"></div><span class="expertise-text">Conditional Access</span></div>
         <div class="expertise-item"><div class="expertise-dot"></div><span class="expertise-text">MAM / MAM-WE</span></div>
         <div class="expertise-item"><div class="expertise-dot"></div><span class="expertise-text">SCCM / Co-Management</span></div>
@@ -751,9 +755,8 @@
         <div class="expertise-item"><div class="expertise-dot"></div><span class="expertise-text">Microsoft Graph API</span></div>
         <div class="expertise-item"><div class="expertise-dot"></div><span class="expertise-text">Power BI Reporting</span></div>
         <div class="expertise-item"><div class="expertise-dot"></div><span class="expertise-text">Exchange Online</span></div>
+        <div class="expertise-item"><div class="expertise-dot"></div><span class="expertise-text">Microsoft 365 (M365)</span></div>
         <div class="expertise-item"><div class="expertise-dot"></div><span class="expertise-text">Azure Virtual Desktop</span></div>
-        <div class="expertise-item"><div class="expertise-dot"></div><span class="expertise-text">VMware Workspace ONE</span></div>
-        <div class="expertise-item"><div class="expertise-dot"></div><span class="expertise-text">MobileIron / Ivanti</span></div>
         <div class="expertise-item"><div class="expertise-dot"></div><span class="expertise-text">ServiceNow / Jira ITSM</span></div>
         <div class="expertise-item"><div class="expertise-dot"></div><span class="expertise-text">ITIL v3 Framework</span></div>
       </div>
@@ -782,42 +785,15 @@
       <p class="section-sub">Continuously updated knowledge across the Microsoft and mobility ecosystem.</p>
 
       <div class="cert-grid fade-up">
-        <div class="cert-card">
-          <div class="cert-year">2024</div>
-          <div class="cert-name">AZ-900 — Azure Fundamentals</div>
-        </div>
-        <div class="cert-card">
-          <div class="cert-year">2024</div>
-          <div class="cert-name">AZ-104 — Azure Administrator</div>
-        </div>
-        <div class="cert-card">
-          <div class="cert-year">2024</div>
-          <div class="cert-name">AZ-140 — Azure Virtual Desktop</div>
-        </div>
-        <div class="cert-card">
-          <div class="cert-year">2023</div>
-          <div class="cert-name">MD-101 — Modern Desktop Administrator</div>
-        </div>
-        <div class="cert-card">
-          <div class="cert-year">2023</div>
-          <div class="cert-name">MD-102 — Endpoint Administrator</div>
-        </div>
-        <div class="cert-card">
-          <div class="cert-year">2022</div>
-          <div class="cert-name">VMware WS1 UEM — Deploy & Manage</div>
-        </div>
-        <div class="cert-card">
-          <div class="cert-year">2022</div>
-          <div class="cert-name">Android Enterprise Certified Professional</div>
-        </div>
-        <div class="cert-card">
-          <div class="cert-year">2018</div>
-          <div class="cert-name">ITIL v3 Foundation</div>
-        </div>
-        <div class="cert-card">
-          <div class="cert-year">2016</div>
-          <div class="cert-name">MobileIron Support Specialist</div>
-        </div>
+        <div class="cert-card"><span class="cert-icon">🏅</span><div class="cert-name">AZ-900 — Azure Fundamentals</div></div>
+        <div class="cert-card"><span class="cert-icon">🏅</span><div class="cert-name">AZ-104 — Azure Administrator</div></div>
+        <div class="cert-card"><span class="cert-icon">🏅</span><div class="cert-name">AZ-140 — Azure Virtual Desktop</div></div>
+        <div class="cert-card"><span class="cert-icon">🏅</span><div class="cert-name">MD-101 — Modern Desktop Administrator</div></div>
+        <div class="cert-card"><span class="cert-icon">🏅</span><div class="cert-name">MD-102 — Endpoint Administrator</div></div>
+        <div class="cert-card"><span class="cert-icon">🏅</span><div class="cert-name">VMware WS1 UEM — Deploy & Manage</div></div>
+        <div class="cert-card"><span class="cert-icon">🏅</span><div class="cert-name">Android Enterprise Certified Professional</div></div>
+        <div class="cert-card"><span class="cert-icon">🏅</span><div class="cert-name">ITIL v3 Foundation</div></div>
+        <div class="cert-card"><span class="cert-icon">🏅</span><div class="cert-name">MobileIron Support Specialist</div></div>
       </div>
     </div>
   </section>
@@ -849,12 +825,6 @@
           </span>
         </div>
         <div class="contact-item">
-          <span class="contact-label">Phone / WhatsApp</span>
-          <span class="contact-value">
-            <a href="tel:+919867813545">+91 98678 13545</a>
-          </span>
-        </div>
-        <div class="contact-item">
           <span class="contact-label">LinkedIn</span>
           <span class="contact-value">
             <a href="https://linkedin.com/in/PrakashJadav" target="_blank">linkedin.com/in/PrakashJadav</a>
@@ -864,10 +834,39 @@
           <span class="contact-label">Location</span>
           <span class="contact-value">Mumbai, India · Remote Worldwide</span>
         </div>
-        <div style="margin-top: 28px;">
-          <a href="mailto:Prakash.Jadav@zohomail.in" class="btn-primary" style="width:100%; text-align:center; display:block;">
-            Send an Enquiry
-          </a>
+
+        <!-- Enquiry Form -->
+        <div id="enquiry-form" style="margin-top: 28px;">
+          <div style="font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: var(--muted); margin-bottom: 16px;">Send an Enquiry</div>
+
+          <div style="display: flex; flex-direction: column; gap: 12px;">
+            <div>
+              <label style="font-family:'DM Mono',monospace; font-size:10px; letter-spacing:2px; text-transform:uppercase; color:var(--muted); display:block; margin-bottom:6px;">Your Name *</label>
+              <input id="f-name" type="text" placeholder="Full name" style="width:100%; background:var(--bg); border:1px solid var(--border); color:var(--text); padding:12px 14px; font-family:'Outfit',sans-serif; font-size:14px; border-radius:2px; outline:none;" onfocus="this.style.borderColor='var(--accent)'" onblur="this.style.borderColor='var(--border)'"/>
+            </div>
+            <div>
+              <label style="font-family:'DM Mono',monospace; font-size:10px; letter-spacing:2px; text-transform:uppercase; color:var(--muted); display:block; margin-bottom:6px;">Email Address *</label>
+              <input id="f-email" type="email" placeholder="your@email.com" style="width:100%; background:var(--bg); border:1px solid var(--border); color:var(--text); padding:12px 14px; font-family:'Outfit',sans-serif; font-size:14px; border-radius:2px; outline:none;" onfocus="this.style.borderColor='var(--accent)'" onblur="this.style.borderColor='var(--border)'"/>
+            </div>
+            <div>
+              <label style="font-family:'DM Mono',monospace; font-size:10px; letter-spacing:2px; text-transform:uppercase; color:var(--muted); display:block; margin-bottom:6px;">Phone / WhatsApp</label>
+              <input id="f-phone" type="tel" placeholder="+91 00000 00000" style="width:100%; background:var(--bg); border:1px solid var(--border); color:var(--text); padding:12px 14px; font-family:'Outfit',sans-serif; font-size:14px; border-radius:2px; outline:none;" onfocus="this.style.borderColor='var(--accent)'" onblur="this.style.borderColor='var(--border)'"/>
+            </div>
+            <div>
+              <label style="font-family:'DM Mono',monospace; font-size:10px; letter-spacing:2px; text-transform:uppercase; color:var(--muted); display:block; margin-bottom:6px;">Company</label>
+              <input id="f-company" type="text" placeholder="Company name" style="width:100%; background:var(--bg); border:1px solid var(--border); color:var(--text); padding:12px 14px; font-family:'Outfit',sans-serif; font-size:14px; border-radius:2px; outline:none;" onfocus="this.style.borderColor='var(--accent)'" onblur="this.style.borderColor='var(--border)'"/>
+            </div>
+            <div>
+              <label style="font-family:'DM Mono',monospace; font-size:10px; letter-spacing:2px; text-transform:uppercase; color:var(--muted); display:block; margin-bottom:6px;">Message *</label>
+              <textarea id="f-msg" rows="4" placeholder="Describe your requirement..." style="width:100%; background:var(--bg); border:1px solid var(--border); color:var(--text); padding:12px 14px; font-family:'Outfit',sans-serif; font-size:14px; border-radius:2px; outline:none; resize:vertical;" onfocus="this.style.borderColor='var(--accent)'" onblur="this.style.borderColor='var(--border)'"></textarea>
+            </div>
+          </div>
+
+          <button onclick="submitEnquiry()" style="width:100%; margin-top:16px; background:var(--accent); color:var(--bg); border:none; padding:16px; font-family:'DM Mono',monospace; font-size:12px; letter-spacing:2px; text-transform:uppercase; cursor:pointer; border-radius:2px; transition:opacity 0.2s;" onmouseover="this.style.opacity='0.85'" onmouseout="this.style.opacity='1'">
+            Send Enquiry →
+          </button>
+
+          <div id="form-msg" style="display:none; margin-top:12px; padding:12px 16px; border-radius:2px; font-family:'DM Mono',monospace; font-size:12px; letter-spacing:1px; text-align:center;"></div>
         </div>
       </div>
     </div>
@@ -891,6 +890,35 @@
     }, { threshold: 0.1 });
 
     document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+    // Enquiry form handler
+    function submitEnquiry() {
+      const name    = document.getElementById('f-name').value.trim();
+      const email   = document.getElementById('f-email').value.trim();
+      const phone   = document.getElementById('f-phone').value.trim();
+      const company = document.getElementById('f-company').value.trim();
+      const msg     = document.getElementById('f-msg').value.trim();
+      const msgBox  = document.getElementById('form-msg');
+
+      if (!name || !email || !msg) {
+        msgBox.style.display = 'block';
+        msgBox.style.background = 'rgba(255,77,106,0.1)';
+        msgBox.style.border = '1px solid rgba(255,77,106,0.3)';
+        msgBox.style.color = '#FF4D6A';
+        msgBox.textContent = 'Please fill in Name, Email and Message.';
+        return;
+      }
+
+      const body = `Name: ${name}%0AEmail: ${email}%0APhone: ${phone || 'Not provided'}%0ACompany: ${company || 'Not provided'}%0A%0AMessage:%0A${encodeURIComponent(msg)}`;
+      const subject = encodeURIComponent(`Enquiry from ${name} — uemspecialist.in`);
+      window.location.href = `mailto:Prakash.Jadav@zohomail.in?subject=${subject}&body=${body}`;
+
+      msgBox.style.display = 'block';
+      msgBox.style.background = 'rgba(0,200,150,0.08)';
+      msgBox.style.border = '1px solid rgba(0,200,150,0.2)';
+      msgBox.style.color = '#00C896';
+      msgBox.textContent = '✓ Opening your email client with your enquiry...';
+    }
   </script>
 </body>
 </html>
